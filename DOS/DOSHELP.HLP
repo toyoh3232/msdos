@@ -1,0 +1,109 @@
+@ Copyright (C) 1990-1993 Microsoft Corp.  All rights reserved.
+@ This is the MS-DOS general help file.  It contains a brief 
+@ description of each command supported by the MS-DOS FASTHELP command.  
+@ Type FASTHELP with no arguments to display the text in this file.
+@ Lines beginning with @ are comments, and are ignored by FASTHELP. This
+@ file may be modified to add new commands.  If the FASTHELP command-name
+@ form is to be used, any new commands should support the /? parameter.
+@ New commands should start in the first column.  Any extra lines needed
+@ for a command description should be preceded by white space.  Commands
+@ must be added in alphabetical order.
+1024FD     1024バイト/セクタのフロッピーディスクへアクセスできるようにします.
+ADDDRV     キャラクタ型デバイスドライバを組み込みます.
+APPEND     指定したデータファイルを現在のディレクトリにあるファイルと同じよう
+           ように開けるようにします.
+ATTRIB     ファイル属性の表示や変更をします.
+BREAK      Ctrl+C 拡張チェックの設定や解除をします.
+CD         現在のディレクトリの表示や変更をします.
+CHCP       現在のコードページ番号の表示や設定をします.
+CHDIR      現在のディレクトリの表示や変更をします.
+CHEV       日本語モードと英語モードの切り替えをします.
+CHKDSK     ディスクをチェックして状態を表示します.
+CLS        画面を消去します.
+COMMAND    MS-DOS コマンドインタープリタを新しく起動します.
+COPY       ファイル(複数可)を別のところへコピーします.
+CTTY       システム制御のための端末デバイスを変更します.
+DATE       日付の表示や変更をします.
+DBLSPACE   DoubleSpace で圧縮されたドライブの設定をします.
+DEBUG      プログラムのテスト/編集ツールであるデバッガを起動します.
+DEFRAG     ディスクのファイルを再編成して, 最適な状態で実行できるようにします.
+DEL        ファイル(複数可)を削除します.
+DELDRV     ADDDRV コマンドで組み込んだデバイスドライバを取り外します.
+DELOLDOS   OLD_DOS.1 ディレクトリとそれに含まれるファイルを削除します.
+DELTREE    ディレクトリとそれに含まれるファイルとサブディレクトリを削除します.
+DIR        ディレクトリ中のサブディレクトリやファイルを一覧表示します.
+DISKCOMP   2つのフロッピーディスクの内容を比較します.
+DISKCOPY   フロッピーディスクの内容を別のフロッピーディスクにコピーします.
+DOSKEY     コマンドラインの編集, MS-DOS コマンドの再呼び出し, マクロの生成を
+           します.
+ECHO       メッセージの表示やコマンドエコーの ON/OFF を切り替えます.
+EDIT       ASCII ファイルを作成/変更する MS-DOS Editor を起動します.
+EMM386     EMM386 メモリサポートの ON/OFF を切り替えます.
+ERASE      ファイル(複数可)を削除します.
+EXIT       COMMAND.COM プログラム(コマンドインタープリタ)を終了します.
+EXPAND     圧縮されたファイル(複数可)を復元します.
+FASTHELP   MS-DOS コマンドの簡単なヘルプを表示します.
+FASTOPEN   よく使うファイルやディレクトリを開く時間を短くします.
+FC         2個以上のファイルの内容を比較して, それらの違いを表示します.
+FDISK      MS-DOS で使うためのハードディスクを設定します.
+FIND       ファイル(複数可)の中から文字列を検索します.
+FONTEDIT   外字(ユーザー定義の文字)を編集します.
+FOR        指定されたコマンドをファイルセットの各ファイルごとに実行します.
+FORMAT     MS-DOS で使用するディスクをフォーマットします.
+GRAPHICS   グラフィックス画面を印刷するプログラムを読み込みます.
+HELP       MS-DOS コマンドの詳しいヘルプを表示します.
+INTERLNK   パラレル/シリアルポートによって 2台のコンピュータを接続します.
+INTERSVR   INTERLNK コマンドによって接続されたサーバーを起動します.
+LABEL      ディスクのボリュームラベルを作成, 変更, または削除します.
+LH         上位メモリ領域にプログラムを読み込みます.
+LOADFIX    プログラムをメモリの最初の 64K 以降に読み込んで実行します.
+LOADHIGH   プログラムを上位メモリ領域に読み込みます.
+MD         ディレクトリを作ります.
+MEM        システムで使用されているメモリと空きメモリの量を表示します.
+MEMMAKER   コンピュータのメモリを最適化する MemMaker プログラムを起動します.
+MKDIR      ディレクトリを作ります.
+MODE       システムデバイスを設定します.
+MORE       一度に 1画面ずつ出力を表示します.
+MOVE       ファイル(複数可)を移動します. ファイルやディレクトリの名前も変更も
+           できます.
+MSAV       コンピュータがウィルスに感染していないか調べます.
+MSBACKUP   ファイル(複数可)をあるディスクから別のディスクへバックアップしたり,
+           復元します.
+MSD        使用しているコンピュータに関する詳しい技術的な情報を表示します.
+NLSFUNC    国別情報を読み込みます.
+PATH       実行可能ファイルの検索パスを表示したり, 設定します.
+PAUSE      バッチファイルの処理を一時停止し, メッセージを表示します.
+POWER      電力管理の ON/OFF を切り替えます.
+PRINT      他の MS-DOS コマンド使用中にテキストファイルを印刷します.
+PROMPT     MS-DOS コマンドプロンプトの形式を変更します.
+RD         ディレクトリを削除します.
+REN        ファイルの名前を変更します.
+RENAME     ファイルの名前を変更します.
+REPLACE    ファイルを置き換えます.
+RESTORE    BACKUP コマンドによってバックアップされたファイルを復元します.
+RMDIR      ディレクトリを削除します.
+SCANDISK   エラーがないかディスクをチェックし, 見つかれば修正します.
+SELKKC     活動中の日本語入力システムを切り替えます.
+SET        MS-DOS 環境変数の表示, 設定, または削除をします.
+SETVER     MS-DOS がプログラムへ通知するバージョン番号を設定します.
+SHARE      ハードディスクのファイルの共有とロックをするための SHARE を組み込み
+           ます.
+SORT       入力を並べ換えます.
+SUBST      パスをドライブ名に割り当てます.
+SWITCH     起動時の環境を変更します.
+SYS        MS-DOS システムファイルとコマンドインタープリタを指定したディスクに
+           コピーします.
+TIME       システム時刻の表示や変更をします.
+TREE       ドライブやパスのディレクトリ構造を図式表示します.
+TYPE       テキストファイルの内容を表示します.
+UNDELETE   削除されたファイルを復元します.
+UNFORMAT   FORMAT コマンドによって消去されたり, RECOVER コマンドによって再構成
+           されたディスクを復元します.
+VER        MS-DOS のバージョンを表示します.
+VERIFY     ファイルがディスクへ正しく書き込まれたか照合するかどうか指定します.
+VOL        ディスクのボリュームラベルやシリアル番号が指定されていれば, それら
+           を表示します.
+VSAFE      コンピュータウィルスの監視を連続して行います.
+XCOPY      ディレクトリをファイル(隠し属性やシステム属性のファイルを除く)や
+           サブディレクトリも含めてコピーします.
+
